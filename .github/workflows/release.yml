@@ -24,16 +24,7 @@ jobs:
           node-version: 20
           cache: 'npm'
           registry-url: 'https://registry.npmjs.org'
-
-      - name: Configure npm for OIDC
-        run: |
-          npm config set //registry.npmjs.org/:_authToken ""
-          npm config set provenance true
-
-      - name: Disable default npm auth token from setup-node
-        run: |
-          unset NODE_AUTH_TOKEN
-          unset NPM_TOKEN
+          scope: ''
 
       - name: Install
         run: npm install
