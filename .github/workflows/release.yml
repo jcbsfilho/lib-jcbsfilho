@@ -5,14 +5,15 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+  id-token: write
+
 jobs:
   release:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      issues: write
-      pull-requests: write
-      id-token: write
     steps:
       - uses: actions/checkout@v5
         with:
@@ -24,7 +25,9 @@ jobs:
           node-version: 20
           cache: 'npm'
           registry-url: 'https://registry.npmjs.org'
-          scope: ''
+
+      - name: Update npm
+        run: npm install -g npm@latest
 
       - name: Install
         run: npm install
