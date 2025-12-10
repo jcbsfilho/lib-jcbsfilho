@@ -1,3 +1,12 @@
+## <small>1.0.3 (2025-12-10)</small>
+
+* fix: downgrade Node.js to version 20 and upgrade semantic-release to 24.2.9 ([e1c8bab](https://github.com/jcbsfilho/lib-jcbsfilho/commit/e1c8bab))
+* fix: downgrade semantic-release and related plugins to compatible versions ([e5e985d](https://github.com/jcbsfilho/lib-jcbsfilho/commit/e5e985d))
+* fix: upgrade @semantic-release/github from 9.2.6 to 11.0.6 ([505beeb](https://github.com/jcbsfilho/lib-jcbsfilho/commit/505beeb))
+* fix: upgrade Node.js to version 22 and add @semantic-release/npm 13.1.0 ([e033eb4](https://github.com/jcbsfilho/lib-jcbsfilho/commit/e033eb4))
+* fix: upgrade semantic-release from 22.0.12 to 23.1.1 ([173b09b](https://github.com/jcbsfilho/lib-jcbsfilho/commit/173b09b))
+* fix: upgrade semantic-release from 24.2.9 to 25.0.2 ([6f66a70](https://github.com/jcbsfilho/lib-jcbsfilho/commit/6f66a70))
+
 ## <small>1.0.2 (2025-12-10)</small>
 
 * fix: add repository field to package.json ([382eb54](https://github.com/jcbsfilho/lib-jcbsfilho/commit/382eb54))

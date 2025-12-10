@@ -1,6 +1,6 @@
 {
   "name": "lib-jcbsfilho",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Lib Test",
   "scripts": {
     "prepare": "husky",
