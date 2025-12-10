@@ -1,3 +1,7 @@
+## <small>1.0.2 (2025-12-10)</small>
+
+* fix: add repository field to package.json ([382eb54](https://github.com/jcbsfilho/lib-jcbsfilho/commit/382eb54))
+
 ## <small>1.0.1 (2025-12-10)</small>
 
 * fix: clear npm auth token and disable setup-node default TOKEN in release workflow ([f0f33f3](https://github.com/jcbsfilho/lib-jcbsfilho/commit/f0f33f3))
