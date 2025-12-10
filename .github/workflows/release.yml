@@ -27,7 +27,11 @@ jobs:
 
       - name: Configure npm for OIDC
         run: |
+          npm config set //registry.npmjs.org/:_authToken ""
           npm config set provenance true
+
+      - name: Disable setup-node default TOKEN
+        run: echo "NODE_AUTH_TOKEN=" >> $GITHUB_ENV
 
       - name: Install
         run: npm install
